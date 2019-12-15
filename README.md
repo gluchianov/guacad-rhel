@@ -38,18 +38,18 @@ Full requirements listed on the [Requirements](https://github.com/Zer0CoolX/guac
 I recommend reading this entire README page AND the entire [Wiki](https://github.com/Zer0CoolX/guacamole-install-rhel/wiki) prior to attempting to use the Apache Guacamole installation script. It is essential to understand what the script does as you will be prompted to enter parameters during setup when running the script. It is important to be prepared to answer these prompts with accurate and desired parameters.
 
 Of special importance to starting with this Guacamole install script are:
-- [Warnings](https://github.com/Zer0CoolX/guacamole-install-rhel/wiki/Warnings)
-- [Logs & Error Handling](https://github.com/Zer0CoolX/guacamole-install-rhel/wiki/Logs-&-Error-Handling)
-- [Testing Procedure](https://github.com/Zer0CoolX/guacamole-install-rhel/wiki/Testing-Procedure)
-- [Troubleshooting](https://github.com/Zer0CoolX/guacamole-install-rhel/wiki/Troubleshooting)
-- [How to Report an Issue](https://github.com/Zer0CoolX/guacamole-install-rhel/wiki/How-to-Report-Issues-(Bugs,-Feature-Request-and-Help))
+- [Warnings](https://github.com/gluchianov/guacad-rhel/wiki/Warnings)
+- [Logs & Error Handling](https://github.com/gluchianov/guacad-rhel/wiki/Logs-&-Error-Handling)
+- [Testing Procedure](https://github.com/gluchianov/guacad-rhel/wiki/Testing-Procedure)
+- [Troubleshooting](https://github.com/gluchianov/guacad-rhel/wiki/Troubleshooting)
+- [How to Report an Issue](https://github.com/gluchianov/guacad-rhel/wiki/How-to-Report-Issues-(Bugs,-Feature-Request-and-Help))
 
 ## Download/Run the Apache Guacamole Script for RHEL 7 and CentOS 7
 **WARNING: It is highly recommended to test this script in a dev environment prior to using it in a production setting!**
 
 Download the `guac-install.sh` script from this repo:
 ```
-wget https://raw.githubusercontent.com/Zer0CoolX/guacamole-install-rhel/master/guac-install.sh
+wget https://raw.githubusercontent.com/gluchianov/guacad-rhel/master/guac-install.sh
 ```
 If installing a custom Guacamole extension, download it as well and take note of its file name and path. See [here](https://github.com/Zer0CoolX/guacamole-install-rhel/wiki/Customizing-the-Apache-Guacamole-Login-Screen) for more details
 
